@@ -1,5 +1,5 @@
 import { motion, useScroll, useMotionValueEvent } from 'framer-motion';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 
 // Extend window interface for fullpage.js
 declare global {
@@ -63,7 +63,7 @@ const Navbar = () => {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-1">
-            {navItems.map((item, index) => (
+            {navItems.map((item) => (
               <motion.button
                 key={item.name}
                 onClick={() => scrollToSection(item.section)}

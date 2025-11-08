@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react'
-import fullpage from 'fullpage.js'
+import 'fullpage.js'
 import 'fullpage.js/dist/fullpage.css'
 import Navbar from './Navbar'
 import HeroSection from './HeroSection'
@@ -12,6 +12,7 @@ function App() {
   const fullpageRef = useRef<any>(null)
 
   useEffect(() => {
+    // @ts-ignore
     fullpageRef.current = new fullpage('#fullpage', {
       autoScrolling: true,
       scrollHorizontally: false,

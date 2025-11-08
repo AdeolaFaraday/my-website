@@ -49,11 +49,7 @@ const SkillsSection = () => {
     { name: 'Scrapy', icon: '🕷️', description: 'Web scraping framework', category: 'ai' },
   ];
 
-  const currentlyLearning = [
-    { name: 'Advanced TensorFlow', icon: '🚀', description: 'Deep learning and neural networks' },
-    { name: 'AI Model Deployment', icon: '⚡', description: 'Production AI systems' },
-    { name: 'Cloud Architecture', icon: '🏗️', description: 'Scalable system design' }
-  ];
+
 
   const getCategoryColor = (category: string) => {
     const colors = {
