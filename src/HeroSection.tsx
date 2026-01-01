@@ -10,7 +10,7 @@ declare global {
 const HeroSection = () => {
   const scrollToProjects = () => {
     if (window.fullpage_api) {
-      window.fullpage_api.moveTo(4); // Projects section (0-indexed + 1)
+      window.fullpage_api.moveTo(2); // Projects section (0-indexed + 1)
     }
   };
 
@@ -24,7 +24,7 @@ const HeroSection = () => {
 
       <div className="relative z-10 w-full max-w-7xl mx-auto px-6 md:px-12 lg:px-24">
         <div className="max-w-3xl">
-          <motion.h1 
+          <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, ease: "easeOut" }}
@@ -33,7 +33,7 @@ const HeroSection = () => {
             Senior Frontend /<br /> Product Engineer
           </motion.h1>
 
-          <motion.p 
+          <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.1, ease: "easeOut" }}
