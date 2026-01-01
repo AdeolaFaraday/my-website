@@ -136,7 +136,7 @@ const Navbar = () => {
               Download CV
             </a>
             <button
-              onClick={() => scrollToSection(5)}
+              onClick={() => scrollToSection(4)}
               className="w-full px-5 py-3 bg-slate-900 text-white text-base font-medium rounded-lg hover:bg-slate-800 transition-colors"
             >
               Contact
