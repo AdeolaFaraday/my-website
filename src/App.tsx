@@ -2,9 +2,10 @@ import { useEffect, useRef } from 'react'
 import 'fullpage.js/dist/fullpage.css'
 import Navbar from './Navbar'
 import HeroSection from './HeroSection'
-import AboutSection from './AboutSection'
-import SkillsSection from './SkillsSection'
-import ProjectsSection from './ProjectsSection'
+import CredibilityStrip from './CredibilityStrip'
+import SelectedProjects from './SelectedProjects'
+import TechStack from './TechStack'
+import WhatIDo from './WhatIDo'
 import ContactSection from './ContactSection'
 
 // Declare fullpage globally
@@ -79,15 +80,27 @@ function App() {
         <div className="section">
           <HeroSection />
         </div>
-        <div className="section">
-          <AboutSection />
+
+        {/* Credibility Strip - Auto Height */}
+        <div className="section fp-auto-height">
+          <CredibilityStrip />
         </div>
+
+        {/* Selected Projects */}
         <div className="section">
-          <SkillsSection />
+          <SelectedProjects />
         </div>
+
+        {/* Tech Stack - Auto Height */}
+        {/* <div className="section fp-auto-height">
+          <TechStack />
+        </div> */}
+
+        {/* What I Do - Auto Height (Optional, or full section) - Keeping full section for visual weight */}
         <div className="section">
-          <ProjectsSection />
+          <WhatIDo />
         </div>
+
         <div className="section">
           <ContactSection />
         </div>
