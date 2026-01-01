@@ -4,7 +4,7 @@ import Navbar from './Navbar'
 import HeroSection from './HeroSection'
 import CredibilityStrip from './CredibilityStrip'
 import SelectedProjects from './SelectedProjects'
-import TechStack from './TechStack'
+// import TechStack from './TechStack'
 import WhatIDo from './WhatIDo'
 import ContactSection from './ContactSection'
 
