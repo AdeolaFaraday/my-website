@@ -18,8 +18,7 @@
     "fullpage.js": "^4.0.37",
     "nodemailer": "^7.0.10",
     "react": "^19.1.1",
-    "react-dom": "^19.1.1",
-    "react-simple-typewriter": "^5.0.1"
+    "react-dom": "^19.1.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.36.0",
